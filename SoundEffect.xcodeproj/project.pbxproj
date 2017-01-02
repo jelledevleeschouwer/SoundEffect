@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		60F739BF1E13BADC00732B7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F739BE1E13BADC00732B7A /* AppDelegate.swift */; };
-		60F739C11E13BADC00732B7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F739C01E13BADC00732B7A /* ViewController.swift */; };
+		60AD49BC1E155D9D00384A1B /* SCSiriWaveformView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AD49BB1E155D9D00384A1B /* SCSiriWaveformView.m */; };
+		60AD49BD1E1672E100384A1B /* SoundEffect-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = 60F739D01E13C4A900732B7A /* SoundEffect-Bridging-Header.h */; };
+		60AD49BF1E1713EC00384A1B /* FilterDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AD49BE1E1713EC00384A1B /* FilterDesign.swift */; };
+		60AD49C11E17FF8D00384A1B /* sweep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 60AD49C01E17FF8D00384A1B /* sweep.wav */; };
 		60F739C41E13BADC00732B7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60F739C21E13BADC00732B7A /* Main.storyboard */; };
 		60F739C61E13BADC00732B7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60F739C51E13BADC00732B7A /* Assets.xcassets */; };
 		60F739C91E13BADC00732B7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60F739C71E13BADC00732B7A /* LaunchScreen.storyboard */; };
+		60F73B161E13D37300732B7A /* FIRFilter.h in Sources */ = {isa = PBXBuildFile; fileRef = 60F73B101E13CB5200732B7A /* FIRFilter.h */; };
+		60F73B171E13D37300732B7A /* FIRFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60F73B111E13CB5200732B7A /* FIRFilter.cpp */; };
+		60F73B181E13D37300732B7A /* FIRFilterObjC.h in Sources */ = {isa = PBXBuildFile; fileRef = 60F73B131E13D14300732B7A /* FIRFilterObjC.h */; };
+		60F73B191E13D37300732B7A /* FIRFilterObjC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 60F73B141E13D14300732B7A /* FIRFilterObjC.mm */; };
+		60F73B1A1E13D37300732B7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F739BE1E13BADC00732B7A /* AppDelegate.swift */; };
+		60F73B1B1E13D37300732B7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F739C01E13BADC00732B7A /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		60AD49BA1E155D9D00384A1B /* SCSiriWaveformView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSiriWaveformView.h; sourceTree = "<group>"; };
+		60AD49BB1E155D9D00384A1B /* SCSiriWaveformView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSiriWaveformView.m; sourceTree = "<group>"; };
+		60AD49BE1E1713EC00384A1B /* FilterDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterDesign.swift; sourceTree = "<group>"; };
+		60AD49C01E17FF8D00384A1B /* sweep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sweep.wav; sourceTree = "<group>"; };
 		60F739BB1E13BADC00732B7A /* SoundEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60F739BE1E13BADC00732B7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60F739C01E13BADC00732B7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,11 @@
 		60F739C51E13BADC00732B7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60F739C81E13BADC00732B7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60F739CA1E13BADC00732B7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60F739D01E13C4A900732B7A /* SoundEffect-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SoundEffect-Bridging-Header.h"; sourceTree = "<group>"; };
+		60F73B101E13CB5200732B7A /* FIRFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIRFilter.h; sourceTree = "<group>"; };
+		60F73B111E13CB5200732B7A /* FIRFilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FIRFilter.cpp; sourceTree = "<group>"; };
+		60F73B131E13D14300732B7A /* FIRFilterObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIRFilterObjC.h; sourceTree = "<group>"; };
+		60F73B141E13D14300732B7A /* FIRFilterObjC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FIRFilterObjC.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +71,21 @@
 		60F739BD1E13BADC00732B7A /* SoundEffect */ = {
 			isa = PBXGroup;
 			children = (
+				60AD49C01E17FF8D00384A1B /* sweep.wav */,
+				60AD49BA1E155D9D00384A1B /* SCSiriWaveformView.h */,
+				60AD49BB1E155D9D00384A1B /* SCSiriWaveformView.m */,
+				60F73B101E13CB5200732B7A /* FIRFilter.h */,
+				60F73B111E13CB5200732B7A /* FIRFilter.cpp */,
+				60F73B131E13D14300732B7A /* FIRFilterObjC.h */,
+				60F73B141E13D14300732B7A /* FIRFilterObjC.mm */,
 				60F739BE1E13BADC00732B7A /* AppDelegate.swift */,
 				60F739C01E13BADC00732B7A /* ViewController.swift */,
+				60AD49BE1E1713EC00384A1B /* FilterDesign.swift */,
 				60F739C21E13BADC00732B7A /* Main.storyboard */,
 				60F739C51E13BADC00732B7A /* Assets.xcassets */,
 				60F739C71E13BADC00732B7A /* LaunchScreen.storyboard */,
 				60F739CA1E13BADC00732B7A /* Info.plist */,
+				60F739D01E13C4A900732B7A /* SoundEffect-Bridging-Header.h */,
 			);
 			path = SoundEffect;
 			sourceTree = "<group>";
@@ -96,6 +122,8 @@
 				TargetAttributes = {
 					60F739BA1E13BADC00732B7A = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 98PHRU9NXK;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,6 +154,7 @@
 				60F739C91E13BADC00732B7A /* LaunchScreen.storyboard in Resources */,
 				60F739C61E13BADC00732B7A /* Assets.xcassets in Resources */,
 				60F739C41E13BADC00732B7A /* Main.storyboard in Resources */,
+				60AD49C11E17FF8D00384A1B /* sweep.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +165,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60F739C11E13BADC00732B7A /* ViewController.swift in Sources */,
-				60F739BF1E13BADC00732B7A /* AppDelegate.swift in Sources */,
+				60AD49BD1E1672E100384A1B /* SoundEffect-Bridging-Header.h in Sources */,
+				60F73B161E13D37300732B7A /* FIRFilter.h in Sources */,
+				60AD49BF1E1713EC00384A1B /* FilterDesign.swift in Sources */,
+				60F73B171E13D37300732B7A /* FIRFilter.cpp in Sources */,
+				60AD49BC1E155D9D00384A1B /* SCSiriWaveformView.m in Sources */,
+				60F73B181E13D37300732B7A /* FIRFilterObjC.h in Sources */,
+				60F73B191E13D37300732B7A /* FIRFilterObjC.mm in Sources */,
+				60F73B1A1E13D37300732B7A /* AppDelegate.swift in Sources */,
+				60F73B1B1E13D37300732B7A /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,10 +294,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 98PHRU9NXK;
 				INFOPLIST_FILE = SoundEffect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = be.belinprotech.SoundEffect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SoundEffect/SoundEffect-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -270,10 +311,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 98PHRU9NXK;
 				INFOPLIST_FILE = SoundEffect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = be.belinprotech.SoundEffect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SoundEffect/SoundEffect-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -297,6 +342,7 @@
 				60F739CF1E13BADC00732B7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
